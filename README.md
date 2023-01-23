@@ -22,14 +22,14 @@ Before data clean-up, there were 1,252 rows of data; after all processing steps 
 
 The elbow curve revealed that the best value for K in the K-means algorithm was 4, as shown below:
 
-[screenshot of line graph with sharp bend at x=4](https://github.com/larabjork/cryptocurrencies/blob/main/images/elbowcurve.png)
+![screenshot of line graph with sharp bend at x=4](https://github.com/larabjork/cryptocurrencies/blob/main/images/elbowcurve.png)
 
 Using plotly.express to generate a 3D scatter plot resulted in the following:
 
-[screenshot of 3D scatter plot, showing data in four clusters](https://github.com/larabjork/cryptocurrencies/blob/main/images/3dplot.png)
+![screenshot of 3D scatter plot, showing data in four clusters](https://github.com/larabjork/cryptocurrencies/blob/main/images/3dplot.png)
 
 Using pandas.hvplot to generate a 2D scatter plot resulted in the following:
 
-[screenshot of 2D scatter plot, showing data from four classes](https://github.com/larabjork/cryptocurrencies/blob/main/images/scatter_plot.png)
+![screenshot of 2D scatter plot, showing data from four classes](https://github.com/larabjork/cryptocurrencies/blob/main/images/scatter_plot.png)
 
 ## Summaryelbo
